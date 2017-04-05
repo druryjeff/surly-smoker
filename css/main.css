@@ -1,0 +1,66 @@
+body, html {
+	height: 100%;
+}
+
+.layout {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 16em;
+	height: 12em;
+	overflow: hidden;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	border: 10px solid #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+
+.smoker {
+	width: 100%;
+}
+
+.filter {
+	position: absolute;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.uni {
+	top: 2%;
+	left: 51%;
+	width: 35%;
+}
+
+.beard {
+	top: 42%;
+	left: 50%;
+	width: 25%;
+	z-index: 1;
+}
+
+.tie {
+	top: 65%;
+	left: 49%;
+	width: 12%;
+}
+
+@media screen and (min-width: 47.5em){
+	body {
+		font-size: 200%;
+	}
+	.layout {
+		border: 20px solid #fff;
+	}
+}
+
+@media screen and (min-width: 67.5em){
+	body {
+		font-size: 300%;
+	}
+}
